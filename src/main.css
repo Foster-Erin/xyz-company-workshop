@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#companyName {
+    font-family: 'Lobster', cursive;
+    color: rgba(255, 0, 204, 0.7);
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 22px;
+    font-size: 20px;
+}
+
+.nav-links {
+    color: rgba(82, 244, 214, 0.5);
+}
