@@ -15,6 +15,15 @@
             href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet"
+        
         <title>XYZ Corporation</title>
     </head>
     <body>
@@ -25,15 +34,25 @@
             </nav>
         </header>
         <main>
-            <div data-product-list>
+            <div class="cart-button" data-product-list>
                 <div data-product-item>
+                    <img
+                        class="cactus-1"
+                        src="https://images.unsplash.com/photo-1528476513691-07e6f563d97f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNhY3R1cyUyMGluJTIwcG90fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+                        alt="green cactus in terracotta pot"
+                    />
                     <div data-id>1</div>
                     <div data-name>Product 1</div>
                     <div data-price>11.11</div>
-                    <button data-btn-add-to-cart>Add to Cart</button>
+                    <button class="button-color" data-btn-add-to-cart>
+                        Add to Cart
+                    </button>
                 </div>
             </div>
         </main>
-        <footer>&copy; 2021 XYZ Corporation, all rights reserved</footer>
+        <footer>
+            &copy;<i class="fab fa-angellist peace-sign"></i> 2021 XYZ
+            Corporation, all rights reserved
+        </footer>
     </body>
 </html>
